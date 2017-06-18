@@ -20,3 +20,32 @@
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
+
+
+
+
+.navbar {
+    margin-bottom: 0px; 
+}
+
+img.resize {
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.navbar-inverse {
+    border-color: #222;
+}
+
+#elevate {
+	background: url('Elev8New.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-color: #1C1819;
+	height: 550px;
+	border-color: black;
+	
+	background-position: center;
+	margin-bottom: 0px;
+}
+
