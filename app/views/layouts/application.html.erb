@@ -19,15 +19,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand-name" href="#">
-        <h3 class="navbar-text p-b-1">ELEV8</h3>
+      <a class="navbar-brand-name" href="/">
+        <h3 class="navbar-text p-b-1"><i class="fa fa-home"></i> ELEV8</h3>
       </a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#about">CONTACT</a></li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="#about">MENU</a></li>
+        <li><a href="#about">BLOG</a></li>
       </ul>
     </div>
     </div>
@@ -36,4 +37,19 @@
   <body>
     <%= yield %>
   </body>
+  
+  <div  class="navbar navbar-inverse navbar-static-bottom">
+    <div class="container">
+      <p class="navbar-brand m-x-3 m-t-1">&copy; Elev8 Cannabis. All Rights Reserved.</p>
+      <div id="navigation">
+        <ul class="nav navbar-right navbar-nav">
+          <li id="facebook" style="margin-right: 10px; padding-right: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px;"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></li>
+          <li id="twitter" style="margin-right: 10px; padding-right: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px;"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></li>
+          <li id="instagram" style="margin-right: 10px; padding-right: 4px; padding-left: 4px; padding-top: 0px; padding-bottom: 0px;"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></li>
+          <li id="google" style="margin-right: 10px; padding-right: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px;"><i class="fa fa-google-plus fa-3x" aria-hidden="true"></i><li>
+        </ul>
+      </div>
+     </div>
+    </div>
+    
 </html>
