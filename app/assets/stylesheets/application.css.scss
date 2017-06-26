@@ -18,6 +18,7 @@
 @import 'bootstrap';
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
@@ -40,7 +41,7 @@ img.resize {
 }
 
 #elevate {
-	background: url('Elev8New.jpg');
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('Elev8New.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-color: #1C1819;
@@ -74,7 +75,7 @@ img.resize {
 	background-position: 0px 0px
 } 
 
-.body {
+body {
 	background-color: #1C1819;	
 }
 
@@ -90,6 +91,7 @@ ul#sizem {
 
 .navbar-nav {
     float: left;
+    font-size: 14px;
 }
 
 #navigation ul {
@@ -115,3 +117,153 @@ ul#sizem {
 #google {
 	color: #dd4b39;
 }
+
+#contact {
+	color: white;
+	padding-bottom: 15px;
+}
+
+#hours {
+	color: #5cb85c;
+}
+
+#storefront {
+	background: url("Storefront.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin-bottom: 0px;
+	padding-bottom: 400px;
+	background-position: 0px 0px
+}
+
+.profile-card {
+    background-color: #222222;
+  margin-bottom: 20px;
+			
+		}
+		
+.profile-pic {
+  border-radius: 50%;
+  position: absolute;
+  top: -65px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  max-width: 100px;
+  -webkit-transition: all 0.4s;
+		  transition: all 0.4s;
+				}
+
+				
+.profile-info {
+		color: #BDBDBD;
+		padding: 25px;
+	    position: relative;
+	    margin-top: 15px;
+				}
+		
+.profile-info h2 {
+	color: #E8E8E8;
+    letter-spacing: 4px;
+	  padding-bottom: 12px;
+				}
+				
+.profile-info span {
+	display: block;
+    font-size: 12px;
+    color: #4CB493;
+	letter-spacing: 2px;
+			}
+
+.profile-info a {
+	 color: #4CB493;
+		}
+.profile-info i {
+	    padding: 15px 35px 0px 35px;
+		}
+		
+
+.profile-card:hover .profile-pic {
+	
+	transform: scale(1.1);
+		}
+
+.profile-card:hover .profile-info hr  {
+	opacity: 1;
+		}
+		
+		
+		
+		
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 52%;
+  right: 52%;
+  bottom: 0;
+  background: #FFFFFF;
+  border-radius: 50%;
+  height: 3px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.profile-card:hover .hvr-underline-from-center:before, .profile-card:focus .hvr-underline-from-center:before, .profile-card:active .hvr-underline-from-center:before {
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #CECECE;
+}
+
+#model2 {
+	background: url("model2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	padding-bottom: 400px;
+	background-position: 0px -50px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+#model3 {
+	background: url("leafly.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	padding-bottom: 200px;
+	background-position: 0px 0px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+#weedmaps {
+	background: url("weedmaps.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	padding-bottom: 220px;
+	background-position: 0px 40px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+p.navbar-brand {
+	font-size: 14px;
+}
+

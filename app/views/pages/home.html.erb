@@ -1,33 +1,133 @@
-<div id="elevate" class="jumbotron bg-secondary text-white m-t-0 p-t-3" align="center">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <%= image_tag("Elev8New.jpg", :alt => "First slide", :class => "first-slide") %>
+          <div class="container">
+            <div class="carousel-caption">
+              <!--<h1>Example headline.</h1>-->
+              <!--<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>-->
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <!--<h1>Another example headline.</h1>-->
+              <!--<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+ 
     
-</div>
-
-<hr class="featurette-divider">
-
-<div class="container-fluid">
-<div class="row featurette">
-  <div class="col-md-7 p-t-3 p-l-3">
-    <h1 class="featurette-heading" style="margin-top: 100px;">Dont just elevate your mind,<br><span class="text-muted"> elevate your high.</span></br></h1>
-    <p class="lead"></p>
-  </div>
-  <div class="col-md-5 p-y-3 p-x-3">
-   <%= image_tag("model3.jpg", :alt => "Generic placeholder image", :class => "featurette-image img-rounded img-responsive center-block") %>
-  </div>
-</div>
-</div>  
-
-<hr class="featurette-divider">
+    <span class="text-muted"><h1 class="text-center">#ELEV8TED</h1></span>
     
-<div class="container-fluid">
-<div class="row featurette">
-  <div class="col-md-7 col-md-push-5 p-t-3 p-l-3">
-    <h1 class="featurette-heading" style="margin-top: 100px;">Rep the brand.<br><span class="text-muted"> Get some Elev8 apparel!</span></br></h1>
-    <p class="lead"></p>
-  </div>
-  <div class="col-md-5 col-md-pull-7 p-y-3 p-x-3">
-    <%= image_tag("model2.jpg", :alt => "Generic placeholder image", :class => "featurette-image img-rounded img-responsive center-block") %>
+<div class="container">
+<div class="row">
+    <div class="col-md-4">
+      <div class="profile-card text-center">
+
+        <%= image_tag("Storefront.jpg", :alt => "First slide", :class => "img-responsive") %>
+        <div class="profile-info">
+
+          
+
+          <h2 class="hvr-underline-from-center">APPAREL<span>APPAREL</span></h2>
+          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          <a href="http://www.twitter.com/mike_youngg"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="mailto:michael_y@live.co.uk"><i class="fa fa-envelope-o fa-2x"></i></a>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="profile-card text-center">
+
+        <%= image_tag("edible1.jpg", :alt => "First slide", :class => "img-responsive") %>
+        <div class="profile-info">
+
+          <h2 class="hvr-underline-from-center">CBD<span>CBD TINCTURES</span></h2>
+          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          <a href="http://www.twitter.com/mike_youngg"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="mailto:michael_y@live.co.uk"><i class="fa fa-envelope-o fa-2x"></i></a>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="profile-card text-center">
+
+        <%= image_tag("edible2.jpg", :alt => "First slide", :class => "img-responsive") %>
+        <div class="profile-info">
+
+          <h2 class="hvr-underline-from-center">EDIBLES<span>EDIBLES</span></h2>
+          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          <a href="http://www.twitter.com/mike_youngg"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="mailto:michael_y@live.co.uk"><i class="fa fa-envelope-o fa-2x"></i></a>
+        </div>
+
+      </div>
+    </div>
   </div>
 </div>
-</div>     
 
-<hr class="featurette-divider">
+<div class="container">
+  <div class="row">
+  <div class="featurette col-md-3">
+    <h1 class="featurette-heading">Rep the brand. <span class="text-muted">Get our apparel!</span></h1>
+    <p class="lead">In simple terms, a responsive web design figures out what resolution of device it's being served on. Flexible grids then size correctly to fit the screen.</p>
+  </div>
+  
+  <div id="model2" class="card featurette col-md-9">
+    <!--<%= image_tag("model2.jpg", :alt => "First slide", :class => "card-block img-rounded img-responsive float-left", :height => "100") %>		<h1>Card Title</h1>-->
+		
+	</div>
+	
+	<div class="row">
+	  <a href="https://leafly.com/dispensary-info/elev8cannabis", target="_blank">
+	  <div id="model3" class="card featurette col-md-6">
+	    
+	  </div>
+	  </a>
+	  
+	  <a href="https://weedmaps.com/dispensaries/elev8-cannabis", target="_blank">
+	  <div id="weedmaps" class="featurette col-md-6">
+      
+    </div>
+    </a>
+	</div>
+
+  </div>
+</div>
+
+
+
+<!--<hr class="featurette-divider">-->
