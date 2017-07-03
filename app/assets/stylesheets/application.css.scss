@@ -29,6 +29,7 @@ h1, h2, h3 {
 
 .navbar {
     margin-bottom: 0px; 
+    border: none;
 }
 
 img.resize {
@@ -37,15 +38,16 @@ img.resize {
 }
 
 .navbar-inverse {
+	background-color: #1C1819;
     border-color: #222;
 }
 
 #elevate {
-	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('Elev8New.jpg');
+	background: url('Elev8New.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-color: #1C1819;
-	height: 550px;
+	height: 500px;
 	border-color: black;
 	
 	background-position: center;
@@ -58,22 +60,13 @@ img.resize {
 }
 
 #about {
-	background: url("Horizon.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	background-position: 0px -130px;
-	margin-bottom: 0px;
-}
-
-
-#aboutbeach {
 	background: url("Beach.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
+	background-position: 0px 0px;
 	margin-bottom: 0px;
-	padding-bottom: 600px;
-	background-position: 0px 0px
-} 
+	padding-bottom: 400px;
+}
 
 body {
 	background-color: #1C1819;	
@@ -82,10 +75,6 @@ body {
 #form {
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
-
-ul#sizem {
-	font-size: 25px;
 }
 
 
@@ -267,3 +256,17 @@ p.navbar-brand {
 	font-size: 14px;
 }
 
+#aboutUs {
+	font-size: 17px;
+	color: white;
+	font-weight: 100;
+}
+
+#icon {
+	background-size: 100% auto;
+	background-position: 0px 40px;
+}
+
+ul.sizem {
+	font-size: 16px;
+}
