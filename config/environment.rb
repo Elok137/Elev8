@@ -12,3 +12,4 @@ ActionMailer::Base.smtp_settings = {
   :domain         => 'serene-hawaii-volcanoes-32512.herokuapp.com',
   :authentication => :plain,
 }
+ActionMailer::Base.delivery_method = :smtp
