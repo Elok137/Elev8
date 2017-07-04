@@ -9,9 +9,8 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   
-  
+  <div class="container">
   <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
@@ -31,8 +30,8 @@
         <li><%= link_to "CONTACT", new_contact_path %></li>
       </ul>
     </div>
-    </div>
     </nav>
+    </div>
 
   <body>
     <%= yield %>
