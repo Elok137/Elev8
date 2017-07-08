@@ -88,3 +88,31 @@
 <div class="container">
 <hr class="featurette-divider">
 </div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="profile-card text-center">
+
+            <%= image_tag("model4.jpg", :alt => "First slide", :class => "img-responsive") %>
+            <div class="profile-info">
+    
+              <h2 class="hvr-underline-from-center">You must be over 21 to view this site.<span></span></h2>
+              <a href="/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">I'm over 21</a>
+              &nbsp;&nbsp;
+              <a href="https://google.com" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">I'm under 21</a>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<script type="text/javascript"> 
+    //Call the method on pageload
+    $(window).load(function(){
+      //Display the modal popup
+        $('#myModal').modal({backdrop: 'static', keyboard: false});
+    });
+</script>
